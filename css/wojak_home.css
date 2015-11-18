@@ -1,0 +1,472 @@
+body {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    
+}
+/* Retina display */
+@media screen and (min-width: 1024px){
+    body{
+        background-image: url(../images/wojak_bg.jpg);
+    }
+    #age_checker .logo {
+    	height: 130px;
+    }
+    #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
+    	height: 55px;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    body{
+        background-image: url(../images/wojak_bg.jpg);
+    }
+    #age_checker .logo {
+    	height: 120px;
+    	
+    } 
+    #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
+    	height: 55px;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    body{
+        background-image: url(../images/wojak_bg.jpg);
+    }
+    #age_checker .agegate-container {
+    	width: 510px !important;
+    }
+    #age_checker .logo {
+    	height: 120px;
+    	
+    } 
+    #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
+    	height: 79px;
+    }   
+}
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    body{
+        background-image: url(../images/wojak_bg_movil.jpg);
+    }
+    #age_checker .agegate-container {
+    	width: 85%!important;
+    }
+    #age_checker .logo {
+    	height: 140px;
+    	
+    }
+    #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
+    	height: 55px;
+    }
+     
+}
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    body{
+        background-image: url(../images/wojak_bg_movil.jpg);
+    }
+    #age_checker .agegate-container {
+    	width: 85%!important;
+    }
+    #age_checker .logo {
+    	height: 140px;
+    }
+    #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
+    	height: 55px;
+    }
+    
+} 
+#age_checker .agegate-container {
+	background-image: url(../images/opacity_pgn.png);
+	background-color: transparent !important;
+	border: 2px solid #FFFFFF !important;
+	margin: 0 auto 0 auto !important;
+	position: relative;
+	clear: both;	
+}
+#age_checker .logo  {
+	width: 100%;
+	margin-top: 0;
+	padding: 0;
+	position: relative;
+}
+#age_checker .logo img{ 
+	width: 150px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: -31px;
+    margin-left: -75px;
+    z-index: 3;
+}
+/*input date **/
+#age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
+	background-color: transparent !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	color: #000 !important;
+	border: none !important;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	line-height: normal;
+  	padding: 0;
+
+}
+#age_checker #edit-submit {
+	width: auto !important;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #000!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #000!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #000!important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #000!important;
+}
+#age_checker_day {
+	background-image: url(../images/input_date_day.png);
+    
+}
+#age_checker_month {
+	background-image: url(../images/input_date_month.png);
+    
+}
+#age_checker_year {
+	background-image: url(../images/input_date_year.png);
+}
+#age_checker_content #edit-submit {
+	background-image: url(../images/edit-submit_age.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	line-height: normal;
+	background-color: transparent !important;
+	color: #FFFFFF;
+	font-weight: bold;
+
+	
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 80%;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.textHuge {
+		font-size: 110px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 60px;
+		line-height: normal;
+	}
+	
+	.textxLarge {
+		font-size: 40px;
+		line-height: normal;
+	}
+
+	.textLarge {
+		font-size: 36px;
+		line-height: normal;
+	}
+	#age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input,
+	#age_checker_content #edit-submit,
+	.textxxMedium {
+		font-size: 26px;
+		line-height: normal;
+	}
+	.textxMedium {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textRegular {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.textHuge {
+		font-size: 77px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 42px;
+		line-height: normal;
+	}
+	
+	.textxLarge {
+		font-size: 28px;
+		line-height: normal;
+	}
+	.textLarge {
+		font-size: 26px;
+		line-height: normal;
+	}
+	#age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input,
+	#age_checker_content #edit-submit,
+	.textxxMedium {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textRegular {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.textHuge {
+		font-size: 54px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 30px;
+		line-height: normal;
+	}
+	.textxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	#age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input,
+	#age_checker_content #edit-submit,
+	.textLarge {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textRegular {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.textHuge {
+		font-size: 38px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 24px;
+		line-height: normal;
+	}
+	
+	.textxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	#age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input,
+	#age_checker_content #edit-submit,
+	.textLarge {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textRegular {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.textHuge {
+		font-size: 32px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	
+	.textxLarge {
+		font-size: 20px;
+		line-height: normal;
+	}
+	#age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input,
+	#age_checker_content #edit-submit,
+	.textLarge {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textxMedium {
+		font-size: 13px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textRegular {
+		font-size: 10px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 9px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 8px;
+		line-height: normal;
+	}
+}
+
+/* font style */
+.font-bold {
+	font-style: bold; 
+}
+
+.font-oblique {
+	font-style: oblique;
+}
+
+.font-italic {
+	font-style: italic;		
+}
+
+.font-normal{
+	font-style: normal; 
+}
+/* font decoration */
+
+.text-line-through {
+	text-decoration: line-through;
+}
+
+.text-overline {
+	text-decoration: overline;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-underline {		
+	text-decoration: underline;	
+}
