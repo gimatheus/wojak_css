@@ -13,7 +13,7 @@ body {
         background-image: url(../images/wojak_bg.jpg);
     }
     #age_checker .logo {
-    	height: 130px;
+    	height: 100px;
     }
     #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
     	height: 55px;
@@ -25,7 +25,7 @@ body {
         background-image: url(../images/wojak_bg.jpg);
     }
     #age_checker .logo {
-    	height: 120px;
+    	height: 100px;
     	
     } 
     #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
