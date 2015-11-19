@@ -1,0 +1,158 @@
+// Bootstrap variables.
+@import 'variables.less';
+
+// Media query variables.
+
+@normal:  ~"screen and (min-width: @{screen-md-min})";
+//Retina display 
+@wide:    ~"screen and (min-width: @{screen-lg-min})";
+//Desktop
+@desktop:  ~"screen and (min-width: @{screen-md-min}) and (max-width: @{screen-lg-min})";
+//table
+@tablet:  ~"screen and (min-width: @{screen-sm-min}) and (max-width: @{screen-md-min})";
+//Mobile HD
+@mobileHD: ~"screen and (min-width: @{screen-xs-min}) and (max-width: @{screen-sm-min})";
+//Mobile LD 
+@mobileLD: ~"screen and (max-width: @{screen-xs-min})";
+
+// Retina display
+body {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover; 
+  	@media @wide {
+  		background-image: url(@image-pathbg-desktop);
+  		#age_checker {
+  			.logo {
+  				height: @wide-logo-home-height;
+  			}
+  		}
+  		#age_checker {
+  			.form-item-day {
+  				input{
+  					height: @wide-input-height;
+  				}
+  			}
+  			.form-item-month {
+  				input {
+  					height: @wide-input-height;
+  				}
+  			}
+  			.form-item-year {
+  				input {
+  					height: @wide-input-height;
+  				}
+  			}
+  		}
+  	}
+  	@media @desktop {
+  		background-image: url(@image-pathbg-desktop);
+  		.logo {
+    		height: @desktop-logo-home-height;
+    	} 
+    	#age_checker {
+  			.form-item-day {
+  				input{
+  					height: @desktop-input-height;
+  				}
+  			}
+  			.form-item-month {
+  				input {
+  					height: @desktop-input-height;
+  				}
+  			}
+  			.form-item-year {
+  				input {
+  					height: @desktop-input-height;
+  				}
+  			}
+  		}
+  	}
+  	@media @tablet {
+  		background-image: url(@image-pathbg-desktop);
+  		#age_checker {
+  			.agegate-container {
+				width: 510px !important;
+			}
+			.logo {
+				height: @tablet-logo-home-height;
+			}
+			
+  			.form-item-day {
+  				input{
+  					height: @tablet-input-height;
+  				}
+  			}
+  			.form-item-month {
+  				input {
+  					height: @tablet-input-height;
+  				}
+  			}
+  			.form-item-year {
+  				input {
+  					height: @tablet-input-height;
+  				}
+  			}
+  		}
+  	}
+  	@media @mobileHD {
+  		background-image: url(@image-pathbg-mobile);
+  		#age_checker {
+  			.agegate-container {
+  				width: @mobileHD-agegate-container-width !important;
+  			}
+  			.logo {
+		    	height: @mobileHD-logo-home-height;
+		    }
+		    .form-item-day {
+  				input{
+  					height: @mobileHD-input-height;
+  				}
+  			}
+  			.form-item-month {
+  				input {
+  					height: @mobileHD-input-height;
+  				}
+  			}
+  			.form-item-year {
+  				input {
+  					height: @mobileHD-input-height;
+  				}
+  			}
+  		}
+  	}
+  	@media @mobileLD {
+  		background-image: url(@image-pathbg-mobile);
+  		#age_checker {
+  			.agegate-container {
+		    	width: @mobileHD-agegate-container-width !important;
+		    }
+		    .logo {
+		    	height: @mobileLD-logo-home-height;
+		    }
+		    .form-item-day {
+  				input{
+  					height: @mobileLD-input-height;
+  				}
+  			}
+  			.form-item-month {
+  				input {
+  					height: @mobileLD-input-height;
+  				}
+  			}
+  			.form-item-year {
+  				input {
+  					height: @mobileLD-input-height;
+  				}
+  			}
+  		}
+  	}	
+} 
+
+
+
+
+
