@@ -25,11 +25,72 @@ body {
     body{
         background-image: url(../images/wojak_bg.jpg);
     }
+    body.page-start {
+    	background-image: url(../images/wojak_bg_start.jpg);
+    	background-size: 100%;
+    	height: 100hv;
+    }
     #age_checker .logo {
     	height: 100px;
     }
     #age_checker .form-item-day input, #age_checker .form-item-month input, #age_checker .form-item-year input{
     	height: 55px;
+    }
+    .views_slideshow_cycle_main img {
+    	max-width: 70%;
+    	display: block;
+    	margin: 0 auto;
+    }
+    .page-start .page-width {
+    	width: 100%;
+    }
+    .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
+    	margin: 0 auto;
+    	max-height: 500px !important;
+    }
+    .views-slideshow-controls-bottom {
+    	width: 20%;
+    	margin: 0 auto;
+    	position: relative;
+    	z-index: 5;
+    	text-align: center;
+    }
+    .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+    	width: 15px;
+    	height: 15px;
+    	display: inline-block;
+    	vertical-align: top;
+    }
+    .views-slideshow-controls-bottom .views-content-counter {
+    	width: 15px;
+    	height: 15px;
+    	display: inline-block;
+    	vertical-align: top;
+    	background: url("../images/bullet_slider_star.png") no-repeat;
+    	font-size: 0px;
+    	cursor: pointer;
+    }
+    .view-footer {
+    	position: fixed;
+    	bottom: 5%;
+    	right: 20%;
+    	z-index: 20;
+    }
+    .view-footer img {
+    	max-width: 70%;
+    }
+    .page-start .wrapper-footer {
+    	position: fixed;
+    	background: url("../images/wojak_bg_footer_start.png") no-repeat;
+    	background-size: 100% 100%;
+    	width: 100%;
+    	bottom: 0;
+    	height: auto;
+    	z-index: 19;
+    	padding: 0 0 10% 0;
+    }
+    .page-start h1 {
+    	display: none;
     }
 }
 /* Desktop */
