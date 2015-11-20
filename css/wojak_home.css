@@ -100,7 +100,7 @@ body {
 	margin: 0 auto 30px auto !important;
 	position: relative;
 	clear: both;	
-	max-height: 470px;
+	max-height: 450px;
 }
 #age_checker .logo  {
 	width: 100%;
@@ -496,6 +496,10 @@ textarea:focus {
 	font-weight: normal;
 }
 
+p {
+	font-family: 'norwesterregular';
+	font-weight: normal;
+}
 .font-normal{
 	font-style: normal; 
 }
@@ -527,6 +531,7 @@ body .agegate-container-footer {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: #696969;
+	position: relative;
 }
 
 body .agegate_copyright_text {
@@ -567,4 +572,6 @@ body .agegate_copyright_text {
 	margin-top: 0
 }
 
-
+body #age_checker_header_message {
+	padding: 40px 30px 10px 30px;
+}
