@@ -37,7 +37,7 @@ body {
     	height: 55px;
     }
     .views_slideshow_cycle_main img {
-    	max-width: 70%;
+    	max-width: 65%;
     	display: block;
     	margin: 0 auto;
     }
@@ -47,13 +47,15 @@ body {
     .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
     	margin: 0 auto;
     	max-height: 500px !important;
+    	width: 55% !important;
     }
     .views-slideshow-controls-bottom {
     	width: 20%;
-    	margin: 0 auto;
-    	position: relative;
-    	z-index: 5;
-    	text-align: center;
+	    position: fixed;
+    	z-index: 25;
+    	left: 40%;
+    	bottom: 26%;
+	    text-align: center;
     }
     .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
     	width: 15px;
@@ -72,7 +74,7 @@ body {
     }
     .view-footer {
     	position: fixed;
-    	bottom: 5%;
+    	bottom: 20%;
     	right: 20%;
     	z-index: 20;
     }
@@ -87,9 +89,51 @@ body {
     	bottom: 0;
     	height: auto;
     	z-index: 19;
-    	padding: 0 0 10% 0;
+    	padding: 5% 0 0 0;
+    	text-align: center;
+    	font-size: 12px;
+    	min-height: 35%;
+    	color: #696969;
+    }
+    .stack-prefooter {
+   		margin: 100px auto 0;
+   		font-size: 0.9em;
+   		min-height: 52px;
+	}
+    .stack-footer-inner {650
+    	width: 100%;
+	    margin: 30px auto 0;
+	    clear: both;
+	    padding: 0 0 20px 0;
+	    height: 40px;
+	    max-width: 100% !important;
+    }
+    .stack-footer-inner .stack-width {
+    	max-width: 980px !important;
+    	margin: 0 auto;
+    	position: none !important;
+    	clear: both;
+    }
+    .stack-prefooter h2 {
+    	text-align: center;
+    	font-size: 1em;
+    	color: #9e080e;
+    }
+    .stack-prefooter .content {
+    	text-align: center;
+    }
+    .stack-prefooter .content p {
+    	margin: 0;
+    	line-height: 12px;
+    	padding: 15px 0 0 0;
     }
     .page-start h1 {
+    	display: none;
+    }
+    .wj_footer_bottom_left.block-age-limit > h2 {
+    	display: none;
+    }
+    .wj_footer_bottom_right.block-age-limit-references > h2 {
     	display: none;
     }
 }
@@ -296,6 +340,7 @@ textarea:focus {
 	.textxxMedium {
 		font-size: 26px;
 		line-height: normal;
+		font-family: 'norwesterregular';
 	}
 	#age_checker .form-item-day input,
 	#age_checker .form-item-month input {
@@ -586,6 +631,128 @@ a {
 	color: #9e080e;
 }
 
+/* header */
+.wrapper-header {
+	max-width: 930px;
+	margin: 0 auto;
+	text-align: center;
+	height: 85px;
+}
+
+.stack-header-inner {
+	width: 26%;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 85px;
+}
+
+.stack-header-inner .page-element {
+	width: 100%;
+}
+
+.stack-header-inner h1 {
+	display: block;
+}
+
+.stack-header-inner a {
+	background: url("../images/logo_woyak.png") no-repeat;
+	height: 85px;
+	width: 100%;
+	background-position: 105px 17px;
+}
+
+.stack-header-inner span{
+	display: none;
+}
+
+.stack-navigation {
+	width: 69%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+ul.menu li:first-child a{
+	background: url("../images/btn_start.png") no-repeat;
+	width: 85px;
+	height: 30px;
+	font-size: 0px;
+	cursor: pointer;
+	display: block;
+}
+
+ul.menu li:first-child a.active,
+ul.menu li:first-child a:hover{
+	background: url("../images/btn_start_hover.png") no-repeat;
+}
+
+ul.menu li:nth-child(2) a{
+	background: url("../images/btn_owaku.png") no-repeat;
+	width: 125px;
+	height: 30px;
+	font-size: 0px;
+	cursor: pointer;
+	display: block;
+}
+
+ul.menu li:nth-child(2) a.active,
+ul.menu li:nth-child(2) a:hover{
+	background: url("../images/btn_owaku_hover.png") no-repeat;
+}
+
+ul.menu li:nth-child(3) a{
+	background: url("../images/btn_nasze.png") no-repeat;
+	width: 125px;
+	height: 30px;
+	font-size: 0px;
+	cursor: pointer;
+	display: block;
+}
+
+ul.menu li:nth-child(3) a.active,
+ul.menu li:nth-child(3) a:hover{
+	background: url("../images/btn_nasze_hover.png") no-repeat;
+}	
+
+ul.menu li:nth-child(4) a{
+	background: url("../images/btn_kontact.png") no-repeat;
+	width: 102px;
+	height: 30px;
+	font-size: 0px;
+	cursor: pointer;
+	display: block;
+}
+
+ul.menu li:nth-child(4) a.active,
+ul.menu li:nth-child(4) a:hover{
+	background: url("../images/btn_kontact_hover.png") no-repeat;
+}
+
+ul.menu li:last-child a{
+	background: url("../images/btn_facebook.png") no-repeat;
+	width: 102px;
+	height: 30px;
+	font-size: 0px;
+	cursor: pointer;
+	display: block;
+}
+
+ul.menu li:last-child a.active,
+ul.menu li:last-child a:hover{
+	background: url("../images/btn_facebook_hover.png") no-repeat;
+}
+
+/* content */
+.wrapper-content {
+	margin: 0;
+}
+
+.wrapper-content .stack-content-inner {
+	padding: 0;
+}
+
+.views-slideshow-cycle-main-frame-row {
+	width: 100% !important;
+}
 /* footer style */
 body .agegate-container-footer {
 	background: transparent;
@@ -606,12 +773,21 @@ body .agegate_copyright_text {
 
 #footer-inner {
 	max-width: 980px;
-	margin: 30px auto 0;
+	margin: 10px auto 0;
 	clear: both;
-	padding: 0 0 20px 0;
+	padding: 15px 0 5px 0;
 	height: 40px;
+	font-size: 0.9em;
 }
 
+#footer-inner .col-first {
+	width: 30%;
+}
+
+#footer-inner .col-second {
+	float: right;
+	width: 65%;
+}
 .wj_footer_bottom_left {
 	float: left;
 }
@@ -627,6 +803,7 @@ body .agegate_copyright_text {
 .wj_footer_bottom_right p {
 	margin: 0;
 	text-align: right;
+	line-height: 14px !important;
 }
 
 #sabm-age-gate-form {
