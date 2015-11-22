@@ -63,6 +63,7 @@ body {
     	display: inline-block;
     	vertical-align: top;
     }
+
     .views-slideshow-controls-bottom .views-content-counter {
     	width: 15px;
     	height: 15px;
@@ -72,6 +73,11 @@ body {
     	font-size: 0px;
     	cursor: pointer;
     }
+
+    .views-slideshow-controls-bottom .active .views-content-counter {
+    	background: url("../images/bullet_slider_star_active.png") no-repeat;
+    }
+
     .view-footer {
     	position: fixed;
     	bottom: 20%;
