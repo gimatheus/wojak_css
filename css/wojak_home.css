@@ -81,6 +81,11 @@ body {
     .view-footer img {
     	max-width: 70%;
     }
+
+    .wrapper-footer {
+    	color: #696969;
+    }
+
     .page-start .wrapper-footer {
     	position: fixed;
     	background: url("../images/wojak_bg_footer_start.png") no-repeat;
@@ -1142,3 +1147,81 @@ body.page-node-81{
 	font-size: 1.5em;
     margin: 0 !important;
 }
+
+/* kontak */
+
+body.node-type-webform {
+	background: url("../images/kontak_bg_todo.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.node-type-webform h1.title {
+	display: none;
+}
+
+.node-type-webform .field-name-field-image-top img{
+	display: block;
+	width: 70%;
+	margin: 150px auto 0;
+}
+
+.node-type-webform  .field-name-field-title {
+	color: #9e0b11;
+	font-size: 2.6em;
+	margin: 50px 0 0 0;
+	width: 56%;
+}
+
+.node-type-webform	.field-name-field-tagline {
+	font-size: 1.7em;
+	width: 56%;
+}
+
+.node-type-webform form.webform-client-form {
+	width: 56%;
+}
+
+.node-type-webform form.webform-client-form .webform-component {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.node-type-webform form.webform-client-form .webform-component:first-child {
+	margin: 18px 7px 0 0
+}
+
+.node-type-webform form.webform-client-form .webform-component:nth-child(3) {
+	margin: 18px 7px 0 0
+}
+
+.node-type-webform form.webform-client-form .webform-component input {
+	width: 95%;
+	border: solid thin #e5e5e5;
+	height: 30px;
+}
+
+.node-type-webform form.webform-client-form .webform-component.webform-component-textarea {
+	width: 100%;
+	display: block;
+}
+
+.node-type-webform form.webform-client-form .form-actions input{
+	width: 230px;
+	height: 70px;
+	display: block;
+	float: right;
+	background: url("../images/bg_button_kontak.png") no-repeat;
+	border: 0;
+	font-family: "norwesterregular";
+	font-size: 2.8em;
+	color: #fff;
+}
+
+.node-type-webform .field-name-field-packshot {
+	display: none;
+}
+
+
+
