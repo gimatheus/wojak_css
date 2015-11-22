@@ -1105,3 +1105,40 @@ body.page-o-wojaku {
 .page-o-wojaku .views-row-4 .views-field-body p {
 	line-height: 20px;
 }
+
+/* piwo */
+
+body.page-node-81{
+	background: url("../images/piwo_bg_todo.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.page-node-81 h1.title {
+	display: none;
+}
+
+.page-node-81 .field-name-field-photo {
+	width: 40%;
+	float: left;
+}
+
+.page-node-81 .field-name-field-photo img {
+	display: block;
+	float: right;
+	clear: both;
+}
+
+.page-node-81 .field-name-field-titletop {
+	width: 56%;
+    float: right;
+    color: #9e0b11;
+    font-size: 2.3em;
+    padding: 375px 0 0 0px;
+}
+
+.page-node-81 .field-name-body {
+	width: 56%;
+	float: right;
+	font-size: 1.5em;
+    margin: 0 !important;
+}
