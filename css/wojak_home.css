@@ -1236,7 +1236,6 @@ body.page-node-26 {
 }
 /**menu**/
 #navigation {
-	background-color: red;
 	height: 70px;
 }
 .nav-is-visible {
@@ -1357,7 +1356,7 @@ div#page::before {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   visibility: hidden;
-  background: #1e262c;
+  background: #ffffff;
   -webkit-transition: visibility 0s 0.3s;
   -moz-transition: visibility 0s 0.3s;
   transition: visibility 0s 0.3s;
@@ -1372,6 +1371,7 @@ div#page::before {
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
 }
+<<<<<<< HEAD
 .pane h1.title {
 		display: none;
 }
@@ -1640,6 +1640,14 @@ div#page::before {
 
 
 
+=======
+.nav-is-visible-menu {
+  visibility: visible;
+  -webkit-transition: visibility 0s 0s;
+  -moz-transition: visibility 0s 0s;
+  transition: visibility 0s 0s;
+}
+>>>>>>> f2977328a80c4e7245ffbad4efbd7d76407758ca
 
 
 
