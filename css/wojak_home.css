@@ -1359,7 +1359,6 @@ div#page::before {
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
 }
-<<<<<<< HEAD
 .pane h1.title {
 		display: none;
 }
