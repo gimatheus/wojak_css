@@ -1178,34 +1178,40 @@ body.page-node-26 {
 }
 
 .page-node-26 form.webform-client-form {
-	width: 56%;
+	width: 58%;
+}
+
+.page-node-26 form.webform-client-form .webform-component label {
+	display: none;
 }
 
 .page-node-26 form.webform-client-form .webform-component {
 	width: 49%;
 	display: inline-block;
 	vertical-align: top;
-
+	margin: 0 0 5px 0;
 }
 
 .page-node-26 form.webform-client-form .webform-component:first-child {
-	margin: 18px 7px 0 0
+	margin: 0;
 }
 
 .page-node-26 form.webform-client-form .webform-component:nth-child(3) {
-	margin: 18px 7px 0 0
+	margin: 0;
 }
 
 .page-node-26 form.webform-client-form .webform-component input {
-	width: 95%;
+	width: 92%;
 	border: solid thin #e5e5e5;
-	height: 30px;
+	height: 45px;
+	padding: 0 0 0 10px;
 }
 
 .page-node-26 form.webform-client-form .webform-component.webform-component-textarea {
-	width: 100%;
+	width: 97%;
 	display: block;
 }
+
 
 .page-node-26 form.webform-client-form .form-actions input{
 	width: 230px;
@@ -1217,6 +1223,7 @@ body.page-node-26 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 2.8em;
 	color: #fff;
+	margin: 0 17px 0 0;
 }
 
 .page-node-26 .field-name-field-packshot {
@@ -1552,14 +1559,14 @@ div#page::before {
 	.page-o-wojaku .views-row-3 .views-field-title {
 		margin: 650px 0 0 0;
     	float: left;
-    	width: 45%;
-    	text-align: left;
+    	width: 55%;
+    	text-align: right;
 	}
 	.page-o-wojaku .views-row-3 .views-field-body {
     	margin: 0 0 55% 0;
     	float: left;
-    	width: 45%;
-    	text-align: left;
+    	width: 55%;
+    	text-align: right;
 	}
 	.page-o-wojaku .views-row-4 .views-field-field-about-photo {
 		display: none;
@@ -1572,7 +1579,7 @@ div#page::before {
 	}
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
 	body.page-o-wojaku {
     	background: url("../images/o_wojaku_bg_todo_mobile_2.jpg") no-repeat !important;
     	background-size: 100% 100%;
@@ -1583,9 +1590,35 @@ div#page::before {
 		display: none;
 	}
 
+	.page-o-wojaku .wrapper-content {
+		width: 100%;
+	}
+
+	.wrapper-header {
+		width: 100%;
+		max-width: 100%;
+	}
+
 	.page-o-wojaku .views-row-2 {
     	margin: 360px 0 0 0;
     	width: 63%;
+	}
+
+	.page-o-wojaku .views-row-2 {
+		width: 90%;
+	}
+
+	.page-o-wojaku .views-row-2 .views-field-title {
+		width: 100%;
+		line-height: 33px;
+	}
+
+	.page-o-wojaku .views-row-2 .views-field-body {
+		width: 100%;
+	}
+
+	.page-o-wojaku .views-row-2 .views-field-body {
+		font-size: 1.3em;
 	}
 
 	.page-o-wojaku .views-row-2 .views-field-field-about-photo {
@@ -1593,8 +1626,9 @@ div#page::before {
 	}
 
 	.page-o-wojaku .views-row-3 .views-field-title {
-    	margin: 530px 0 0 0;
-    	width: 40%;
+    	margin: 470px 10% 0 10%;
+    	width: 85%;
+    	text-align: right;
     }
 
     .page-o-wojaku .views-row-3 {
@@ -1602,7 +1636,10 @@ div#page::before {
     }
 
     .page-o-wojaku .views-row-3 .views-field-body {
-    	width: 40%;
+    	width: 85%;
+    	margin: 0px 10% 0 10%;
+    	font-size: 1.3em;
+    	text-align: right;
     }
     .page-o-wojaku .views-row-4 .views-field-title {
     	padding: 0;
@@ -1611,11 +1648,14 @@ div#page::before {
 
     .page-o-wojaku .views-row-4 .views-field-title {
     	padding: 0;
-    	margin: 0;
+    	margin: 490px 0 0 10%	;
+    	width: 90%;
     }
 
     .page-o-wojaku .views-row-4 .views-field-body {
-    	margin: 0;
+    	margin: 0 0 0 10%;
+    	width: 90%;
+    	font-size: 1.3em;
     }
 }
 
