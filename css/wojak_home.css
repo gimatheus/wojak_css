@@ -24,20 +24,14 @@ input::-webkit-input-placeholder {
     font-family: helvetica, arial, sans-serif;
     font-style: italic;
  }
- 
-
 input:-moz-placeholder { /* Firefox 18- */
     font-family: helvetica, arial, sans-serif;
     font-style: italic;
  }
- 
-
 input::-moz-placeholder {  /* Firefox 19+ */
     font-family: helvetica, arial, sans-serif;
     font-style: italic; 
  }
- 
-
 input:-ms-input-placeholder {  
     font-family: helvetica, arial, sans-serif;
     font-style: italic;
@@ -72,9 +66,12 @@ input:-ms-input-placeholder {
         background-image: url(../images/wojak_bg.jpg);
     }
     body.page-start {
-    	background-image: url(../images/wojak_bg_start.jpg);
-    	background-size: 100%;
-    	height: 100hv;
+    	background-image: url(../images/wojak_bg_start.jpg) no-repeat center center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+		width: 100%;
     }
     #age_checker .logo {
     	height: 100px;
@@ -136,6 +133,7 @@ input:-ms-input-placeholder {
 
     .wrapper-footer {
     	color: #696969;
+    	font-size: 18px;
     }
 
     .page-start .wrapper-footer {
@@ -1184,8 +1182,9 @@ body.page-node-81{
 }
 
 .page-node-81 .field-name-field-photo {
-	width: 40%;
-	float: left;
+	width: 45%;
+	position: absolute;
+   left: 20%;
 }
 
 .page-node-81 .field-name-field-photo img {
@@ -1199,7 +1198,7 @@ body.page-node-81{
     float: right;
     color: #9e0b11;
     font-size: 2.3em;
-    padding: 375px 0 0 0px;
+    padding: 280px 0 0 0px;
 }
 
 .page-node-81 .field-name-body {
@@ -1211,70 +1210,70 @@ body.page-node-81{
 
 /* kontak */
 
-body.page-node-26 {
+body.page-node-26, body.page-node-106 {
 	background: url("../images/kontak_bg_todo.jpg") no-repeat;
 	background-size: 100% 100%;
 }
 
-.page-node-26 h1.title {
+.page-node-26 h1.title, .page-node-109 h1.title {
 	display: none;
 }
 
-.page-node-26 .field-name-field-image-top img{
+.page-node-26 .field-name-field-image-top img, .page-node-109 .field-name-field-image-top img {
 	display: block;
 	width: 70%;
 	margin: 150px auto 0;
 }
 
-.page-node-26 .field-name-field-title {
+.page-node-26 .field-name-field-title, .page-node-109 .field-name-field-title {
 	color: #9e0b11;
 	font-size: 2.6em;
 	margin: 50px 0 0 0;
 	width: 56%;
 }
 
-.page-node-26 .field-name-field-tagline {
+.page-node-26 .field-name-field-tagline, .page-node-109 .field-name-field-tagline {
 	font-size: 1.7em;
 	width: 56%;
 }
 
-.page-node-26 form.webform-client-form {
+.page-node-26 form.webform-client-form, .page-node-109 form.webform-client-form {
 	width: 58%;
 }
 
-.page-node-26 form.webform-client-form .webform-component label {
+.page-node-26 form.webform-client-form .webform-component label, .page-node-109 form.webform-client-form .webform-component label {
 	display: none;
 }
 
-.page-node-26 form.webform-client-form .webform-component {
+.page-node-26 form.webform-client-form .webform-component, .page-node-109 form.webform-client-form .webform-component {
 	width: 49%;
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 0 5px 0;
 }
 
-.page-node-26 form.webform-client-form .webform-component:first-child {
+.page-node-26 form.webform-client-form .webform-component:first-child, .page-node-109 form.webform-client-form .webform-component:first-child {
 	margin: 0;
 }
 
-.page-node-26 form.webform-client-form .webform-component:nth-child(3) {
+.page-node-26 form.webform-client-form .webform-component:nth-child(3), .page-node-109 form.webform-client-form .webform-component:nth-child(3) {
 	margin: 0;
 }
 
-.page-node-26 form.webform-client-form .webform-component input {
+.page-node-26 form.webform-client-form .webform-component input, .page-node-109 form.webform-client-form .webform-component input {
 	width: 92%;
 	border: solid thin #e5e5e5;
 	height: 45px;
 	padding: 0 0 0 10px;
 }
 
-.page-node-26 form.webform-client-form .webform-component.webform-component-textarea {
+.page-node-26 form.webform-client-form .webform-component.webform-component-textarea, .page-node-109 form.webform-client-form .webform-component.webform-component-textarea {
 	width: 97%;
 	display: block;
 }
 
 
-.page-node-26 form.webform-client-form .form-actions input{
+.page-node-26 form.webform-client-form .form-actions input, .page-node-109 form.webform-client-form .form-actions input {
 	width: 230px;
 	height: 70px;
 	display: block;
@@ -1287,11 +1286,11 @@ body.page-node-26 {
 	margin: 0 17px 0 0;
 }
 
-.page-node-26 .field-name-field-packshot {
+.page-node-26 .field-name-field-packshot, .page-node-109 .field-name-field-packshot {
 	display: none;
 }
 
-.page-node-26 .view-footer-kontakt img{
+.page-node-26 .view-footer-kontakt img, .page-node-109 .view-footer-kontakt img {
 	width: 21%;
     display: block;
     float: right;
@@ -1539,7 +1538,11 @@ div#page::before {
 	}
 	body.page-start {
 		background: url("../images/wojak_bg_start_mobile.jpg") no-repeat;
-		background-size: 100%;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+		width: 100%;
 	}
 	.views-slideshow-cycle-main-frame-row {
 		width: 100% !important;
